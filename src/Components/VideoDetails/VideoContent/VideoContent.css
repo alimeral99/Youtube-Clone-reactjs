@@ -1,0 +1,77 @@
+.videoContent__title {
+  margin-top: 5px;
+  font-size: 18px;
+}
+
+.videoContent__info {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.videoContent__profile {
+  display: flex;
+  align-items: center;
+}
+
+.videoContent__profile > .videoContent__channelName {
+  margin: 0 20px;
+}
+
+.videoContent__footer {
+  background-color: #e5e5e5;
+  padding: 10px;
+  border-radius: 15px;
+}
+
+.videoContent__footer > .videoContent__timestamp {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.button__groups {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.button__groups .left__btn,
+.right__btn {
+  display: flex;
+  align-items: center;
+}
+
+.button__groups button {
+  margin-right: 10px;
+  border: none;
+  border-radius: 15px;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 550;
+  display: flex;
+  align-items: center;
+  width: fit-content;
+  height: fit-content;
+  padding: 7.5px 16px;
+}
+
+.button__groups button > .MuiSvgIcon-root {
+  margin-right: 10px;
+}
+
+.join__btn {
+  background-color: black;
+  color: #fff;
+}
+
+@media (max-width: 680px) {
+  .videoContent__info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .videoContent__profile {
+    margin-right: auto;
+    margin-bottom: 10px;
+  }
+}

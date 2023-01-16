@@ -1,0 +1,31 @@
+.sidebar {
+  flex: 0.2;
+  height: 100vh;
+  overflow-y: scroll;
+}
+
+.sidebar > hr {
+  height: 1px;
+  border: 0;
+  background-color: lightgray;
+  margin: 10px 0;
+}
+
+.sidebar__Title {
+  margin-left: 20px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 450;
+}
+
+@media (max-width: 870px) {
+  .sidebar {
+    flex: 0.4;
+  }
+}
+
+@media (max-width: 560px) {
+  .sidebar {
+    display: none;
+  }
+}

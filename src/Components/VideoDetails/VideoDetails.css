@@ -1,0 +1,39 @@
+.video__Details {
+  display: flex;
+  margin-top: 20px;
+  justify-content: center;
+}
+
+.videoDetails__Container {
+  width: 700px;
+  height: 400px;
+  margin-right: 20px;
+}
+
+.videoDetails__Container > iframe {
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 980px) {
+  .video__Details {
+    display: flex;
+    flex-direction: column;
+  }
+  .videoDetails__Container {
+    width: 600px;
+    height: 400px;
+    margin-right: 10px;
+  }
+  .videoDetails__Container {
+    margin-bottom: 190px;
+  }
+}
+
+@media (max-width: 650px) {
+  .videoDetails__Container {
+    width: 550px;
+    height: 400px;
+    margin-right: 10px;
+  }
+}

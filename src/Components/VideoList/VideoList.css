@@ -1,0 +1,20 @@
+.videoList {
+  flex: 0.8;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  overflow-y: scroll;
+  flex-wrap: wrap;
+}
+
+.searchvideoList {
+  flex: 0.8;
+  display: block;
+  margin-left: 30px;
+}
+
+@media (max-width: 560px) {
+  .videoList {
+    flex: 1;
+  }
+}
