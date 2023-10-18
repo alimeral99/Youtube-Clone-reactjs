@@ -6,7 +6,7 @@
 - React
 - Redux-Toolkit
 - Redux-Thunk
-- React-Router-Dom v6.2
+- React-Router-Dom
 - Material-UI-Icon
 - Axios-api
 - Google-Cloud-Youtube-Data-Api
